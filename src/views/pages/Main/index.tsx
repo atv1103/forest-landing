@@ -31,7 +31,7 @@ const Main = () => {
         <section>
           <CoverCard
             title="Northern<br />forest"
-            image="/image.jpg"
+            image={`${import.meta.env.BASE_URL}image.jpg`}
             subTitle="Northern taiga journey"
             text={`Majestic coniferous forests, crystal-clear lakes, and the stillness
             of untouched nature create an atmosphere unlike any other region.
